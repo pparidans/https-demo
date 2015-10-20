@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon doge.js",
+    "start": "nodemon basic.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "basic": "nodemon basic.js",
-    "defaced": "nodemon doge.js"
+    "bunny": "nodemon bunny.js",
+    "doge": "nodemon doge.js",
+    "defaced": "nodemon defaced.js"
   },
   "author": "",
   "license": "ISC",
