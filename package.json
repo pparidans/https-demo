@@ -4,17 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon basic.js",
+    "start": "nodemon proxy.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "basic": "nodemon basic.js",
+    "proxy": "nodemon proxy.js",
     "bunny": "nodemon bunny.js",
     "doge": "nodemon doge.js",
-    "defaced": "nodemon defaced.js"
+    "defaced": "nodemon defaced.js",
+    "login": "nodemon login.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "connect": "^3.4.0",
+    "figlet": "^1.1.1",
     "harmon": "^1.3.1",
     "http-proxy": "^1.11.3"
   },
